@@ -11,12 +11,12 @@ describe('sort()', function() {
 
   it('should rearrange an array for 3 columns', function() {
     var sorted = vfc(data, 3);
-    assert.deepEqual(sorted, [ 0, 4, 7, 1, 5, 8, 2, 6, 9, 3 ]);
+    assert.deepEqual(sorted, [0, 4, 7, 1, 5, 8, 2, 6, 9, 3]);
   });
 
   it('should rearrange an array for 4 columns', function() {
     var sorted = vfc(data, 4);
-    assert.deepEqual(sorted, [ 0, 3, 6, 8, 1, 4, 7, 9, 2, 5 ]);
+    assert.deepEqual(sorted, [0, 3, 6, 8, 1, 4, 7, 9, 2, 5]);
   });
 
   it('should return the same array when n is > arr.length', function() {
