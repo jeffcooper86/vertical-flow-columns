@@ -1,0 +1,35 @@
+{
+  "name": "vertical-flow-columns",
+  "version": "0.1.0",
+  "description": "Sorts data for displaying columns vertically",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jecoopr/vertical-flow-columns.git"
+  },
+  "keywords": [
+    "sort",
+    "data",
+    "display",
+    "vertical"
+  ],
+  "author": "Jeff Cooper (jecoopr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jecoopr/vertical-flow-columns/issues"
+  },
+  "homepage": "https://github.com/jecoopr/vertical-flow-columns#readme",
+  "dependencies": {
+    "array-chunker": "^0.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
